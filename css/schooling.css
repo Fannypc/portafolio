@@ -1,0 +1,61 @@
+/* SCHOOLING */
+.schooling-header {
+    text-align: center;
+}
+
+.schooling-content-left {
+    display: flex;
+    justify-content: center;
+}
+
+.schooling-content-right {
+    display: flex;
+    justify-content: center;
+}
+
+.schooling-card {
+    background-color: #F9F5F2;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: 0 -0.5rem;
+}
+
+.schooling-img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .schooling-card {
+        width: 13rem;
+        min-height: 14rem;
+    }
+
+    .schooling-content-left {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .schooling-content-right {
+        display: flex;
+        justify-content: flex-start;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

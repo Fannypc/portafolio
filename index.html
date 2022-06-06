@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/schooling.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <button onclick="toggleMenu()">
+            <img src="./images/menu 2.svg">
+        </button>
+        <ul class="hidden" id="ul-nav">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Acerca de mí</a>
+            </li>
+            <li>
+                <a href="#">Mis habilidades</a>
+            </li>
+            <li>
+                <a href="#">Experiencia</a>
+            </li>
+            <li>
+                <a href="#">Mi portafolio</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-12 schooling-header">
+            <h2>
+                Estudios
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <div class="schooling-content-left">
+                <div class="schooling-card">
+                    <div class="schooling-img">
+                        <img src="./images/mty.png">
+                    </div>
+                    <p>Tec de Monterrey</p>
+                    <p>2014-2020</p>
+                    <p>Licenciatura en diseño industrial</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="schooling-content-right">
+                <div class="schooling-card">
+                    <div class="schooling-img">
+                        <img src="./images/academlo.png">
+                    </div>
+                    <div>
+                        <p>Academlo</p>
+                        <p>2020-2021</p>
+                        <p>Programa full stack</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row contact-container">
+        <div class="col-12 contact-header">
+            <h2>Contacto</h2>
+        </div>
+        <div class="col-12 contact-content">
+            <div class="contact-info">
+                <div class="contact-icon">
+                    <img src="./images/phone.svg">
+                </div>
+                <h3>Teléfono</h3>
+                <p>5514785569</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-icon">
+                    <img src="./images/mail.svg">
+                </div>
+                <h3>Email</h3>
+                <p>example.email.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row footer-container">
+        <div class="col-12 footer">
+            <h2>Stefany Porras</h2>
+            <p>Hecho con &#10084; en Academlo</p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
