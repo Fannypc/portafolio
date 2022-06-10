@@ -7,6 +7,11 @@
     max-width: 100%;
 }
 
+.portfolio-img-container {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
