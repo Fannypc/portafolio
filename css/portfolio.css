@@ -1,10 +1,12 @@
-/* FOOTER */
-.footer-container {
-    margin-top: 4rem;
-    padding: 2rem 0;
-    background-color: #197F5A;
-    color: white;
+/* PORTFOLIO */
+.portfolio-container {
+    padding: 0 10%;
 }
+
+.portfolio-img {
+    max-width: 100%;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
