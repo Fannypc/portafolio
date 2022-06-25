@@ -1,0 +1,54 @@
+.home{
+    background-color: black;
+    background-image: url(../../images/g99.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    background-position: center 1rem;
+}
+
+.home-photo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.home-photo img {
+    max-width: 100%;
+}
+
+.home-content {
+    text-align: center;
+    width: 17rem;
+    margin: 0 auto;
+}
+
+.home-vector {
+    background-image: url(../../images/g98.svg);
+    min-height: 25rem;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    margin-top: -11rem;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content {
+        width: 30rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
