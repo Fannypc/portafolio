@@ -1,0 +1,29 @@
+.abilities {
+    height: 35rem;
+    background-image: url(../../images/g97.svg);
+    background-repeat: no-repeat;
+    background-position: 118% top;
+    padding: 4rem 10%;
+    margin: 6rem 0;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .abilities {
+        background-position: 110% top;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .abilities {
+        background-position: 103% top;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
